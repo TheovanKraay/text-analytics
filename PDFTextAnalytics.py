@@ -24,7 +24,7 @@ def parsePDF(path):
 # Replace the accessKey string value with your valid access key.
 accessKey = '0bf7acdf299a4d0e8fec402213b6847c'
 url = 'westeurope.api.cognitive.microsoft.com'
-path = '/text/analytics/v2.0/Sentiment'
+path = '/text/analytics/v2.0/keyPhrases'
  
 def TextAnalytics(documents):
     headers = {'Ocp-Apim-Subscription-Key': accessKey}
