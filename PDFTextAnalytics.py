@@ -35,7 +35,7 @@ def TextAnalytics(documents):
     return response.read ()
 
 
-docs = parsePDF("/*.pdf")
+docs = parsePDF("*.pdf")
 print(docs)
 print()
 print ('Please wait a moment for the results to appear.\n')
